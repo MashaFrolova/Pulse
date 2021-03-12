@@ -19,6 +19,9 @@
             font-weight: 500;
             font-size: 18px;
         }
+        @media screen and (max-width: 320px) {
+            font-size: 17px;
+        }
     } 
     &__phone {
         display: block;
@@ -33,6 +36,9 @@
     &__contacts {
         display: flex;
         flex-direction: column;
-         align-items: flex-end;
+        align-items: flex-end;
+        @media screen and (max-width: 320px) {
+            align-items: center;
         }
+    }             
 }
