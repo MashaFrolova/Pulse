@@ -24,9 +24,13 @@
             align-items: center;
             margin: 0 auto;
         }
+        &__phone {
+            margin-bottom: 25px;
+        }
     }
     .promo {
         padding: 25px 0;
+        // background: url(../../img/main_mobile.jpg) center (center/cover) no-repeat;
         &__wrapper {
             margin-top: 0px;
         }
@@ -46,15 +50,30 @@
             align-items: center;
             margin: 0 auto;
             width: 100%;
-            margin-top: 25px;
+            margin: 25px 0;
         }
         &__link {
             margin: 0 auto;
+            margin-top: 25px;
         }
     }
-    .botton {
+    .button {
         &_main {
-            margin: 25px 35px 0 35px;
+            margin: 0 auto;;
         }
-    }    
-}
+    }
+    .advantages {
+        padding: 44px 10px 80px 10px;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        &__item {
+            margin-bottom: 25px;
+        }
+    }
+    .title {
+        font-size: 32px;
+    }
+}    
