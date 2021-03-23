@@ -2,6 +2,8 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
         adaptiveHeight: true,
+        centerMode: true,
+        variableWidth: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
@@ -25,7 +27,8 @@ $(document).ready(function(){
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false
                 }
             },
             {
@@ -33,7 +36,7 @@ $(document).ready(function(){
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    variableWidth: true
+                    arrows: false
                 }
             }
         ]     
