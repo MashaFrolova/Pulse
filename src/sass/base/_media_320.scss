@@ -33,7 +33,7 @@
         width: 320px;
         padding: 25px 0;
         background-size: cover;
-        background-position-x: 7%;
+        background-position-x: 53%;
         // background-position-y: 100%;
         // height: 650px;
         // object-fit: cover;
@@ -85,5 +85,36 @@
     }
     .title {
         font-size: 32px;
+        &_left {
+            font-size: 35px;
+            text-align: center;
+            line-height: 34px;
+            &__320 {
+                display: none;
+            }
+        }
+    }
+    .consultation {
+        padding-top: 10px;
+        &__descr {
+            text-align: center;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        form {
+            margin: 0 auto;
+            padding-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    .carousel {
+        padding: 41px 0;
+        &__inner {
+            width: 100%;
+        }
+    }
+    .slck-dots  {
+        display: flex;
+        flex-direction: row;
     }
 }    
